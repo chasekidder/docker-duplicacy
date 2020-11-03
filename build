@@ -1,0 +1,6 @@
+#!/bin/bash
+#sudo docker stop test-container
+#sudo docker container rm test-container
+sudo docker rm --force test-container
+sudo docker build -t duplicacy-docker /home/chase/repos/duplicacy-docker/
+sudo docker run -d -v /home/chase/repos/duplicacy-docker/testmnt/source:/src --name test-container duplicacy-docker 

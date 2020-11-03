@@ -1,0 +1,7 @@
+# All of this is commented out so that when I deploy this it doesn't run backups
+# automatically until I say so.
+#
+#* * * * * /bin/sh /run-backup.sh > /proc/1/fd/1 2>/proc/1/fd/2
+#
+#
+#

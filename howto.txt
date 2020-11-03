@@ -1,0 +1,6 @@
+Requirements:
+  - restic-password
+  - rclone-sa.json
+
+Change Before Build:
+  - rclone.conf - Add user to impersonate
